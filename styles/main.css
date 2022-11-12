@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
+* {
+    box-sizing: border-box;
+    background-color:#e5e5e5;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    color: #000;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Tabs */
+
+.tabs{
+    padding-top: 109px;
+    padding-bottom: 109px;
+}
+
+.menu__selected:first-child{
+    border: 1px solid #C6CBCD;
+    border-radius: 5px 5px 0 0;
+    border-bottom:none;
+}
+
+.menu__selected{
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color:#333333;
+    padding: 10px 0;
+}
+
+.content__left__title{
+    font-family: 'Open sans', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.content__left__text{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align:left;
+    margin-bottom: 50px;
+    line-height: 21px;
+    }
+
+.content__left__button{
+    background-color: #EC7979;
+    color:#FFFFFF;
+    padding: 15px 20px;
+    width: 270px;
+    height: 58px;
+    margin-bottom: 54px;
+    text-align: center;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    border:none;
+}
+
+.tabs__content__left{
+    display: inline-block;
+    border: 1px solid #C6CBCD;
+    padding-left: 100px;
+    padding-top: 54px;
+    padding-bottom: 25px;
+    width: 64%;
+    vertical-align: top;
+}
+
+.tabs__content__right{
+    display:inline-block;
+width: 35%;
+}
+
+.menu__selected:hover{
+    cursor: pointer;
+}
+
+.content__left__button:hover{
+    cursor: pointer;
+    background-color:pink;
+}
+
+/* Awersome */
+
+.about{
+    padding-top: 109px;
+    padding-bottom: 109px;
+}
+.about__main-title{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.separator--red-color{
+    border: 1px solid #EC7979;
+    width: 170px;
+    margin: 60px auto 40px;
+    }
+
+.about__secondary-title{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    color: #86878B;
+    font-weight: 400;
+}
+
+.about__list{
+    margin-top: 110px;
+    margin-bottom: 58px;
+}
+
+.list__list-item{
+    display: inline-block;
+    text-align: center;
+    width: calc(99%/3);
+}
+
+.list-item__title{
+    font-family:'Open sans', sans-serif;
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.list-item__image{
+    display: inline-block;
+    border: 1px solid #EC7979;
+    border-radius: 50%;
+    margin-bottom: 80px;
+    width: 95px;
+    height: 95px
+}
+
+
+.list-item__descr{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    }

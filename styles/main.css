@@ -237,4 +237,5 @@ max-height: 100%;
     box-shadow:2px 2px 8px grey;
     top: -15px;
     position: relative;
+    cursor: pointer;
 }

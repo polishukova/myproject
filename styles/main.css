@@ -250,36 +250,32 @@ max-height: 100%;
 
 .opinion{
     display: flex;
-    justify-content: space-between;
     padding-top: 83px;
     padding-bottom: 54px;
     margin: 0 -15px;
 }
 
-.opinion-1.opinion-2.opinion-3{
-    position: relative;
-}
-
 .opinion__text{
+    position: relative;
     font-family: 'Raleway', sans-serif;
-    /* font-size: 18px; */
+    font-size: 18px;
     font-weight: 400;
     line-height: 21px;
-    text-align: center;
-    align-items:center;
     background-color: #E2E2E2;
     color:#86878B;
     border-radius: 10px;
     margin: 0 15px;
-    padding: 38px 5px;
+    padding: 38px 22px;
 }
 
-.opinion__polygon{
+.opinion__text::before{
     position: absolute;
+    content:"";
 	border-left: 20px solid transparent;
 	border-right: 20px solid transparent;
 	border-top: 30px solid #E2E2E2;
-    margin-left: 75px;
+    top:100%;
+    left: 20%;
 }
 
 .opinion__customer-info{

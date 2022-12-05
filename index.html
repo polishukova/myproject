@@ -4,13 +4,92 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/all.css">
     <link rel="stylesheet" href="./styles/main.css">
-    
     <title>My project</title>
 </head>
 <body>
+<header>
+    <div class="header-block">
+        <div class="header-logo">
+            <img src="./img/AX.svg" alt="logo">
+            <img src="./img/IT.svg" alt="logo">
+        </div>
+    <div class="header__navigation">
+        <nav class="navigarion-menu">
+            <ul class="navigarion-list">
+                <li class="navigation-list__item">
+                    <a href="#tabs">Features</a>
+                </li>
+                <li class="navigation-list__item">
+                    <a href="#about">About</a>
+                </li>
+                <li class="navigation-list__item">
+                    <a href="#pricing">Pricing</a>
+                </li>
+                <li class="navigation-list__item">
+                    <a href="#rewiews">Rewiews</a>
+                </li>
+                <li class="navigation-list__item">
+                    <a href="">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    </div>
+</header>
+<main>
+    <section class="desktop">
+        <div class="desktop-block">
+            <div class="desktop-block__info">
+                <div class="info__logo--wrapper">
+                    <img class="info__logo" src="./img/AX.svg" alt="logo">
+                    <img class="info__logo" src="./img/IT.svg" alt="logo">
+                </div>
+                <p class="info__title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</p>
+                <p class="info__secondary-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <button class="info__button">Download</button>
+            </div>
+            <div></div>
+        </div>
+    </section>
+    <section class="social-media">
+        <div class="social-media__block">
+            <div class="social-media__info">
+                <p class="social-media__info-title">Social Media</p>
+                <p class="social-media__info-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Aenean euismod bibendum laoreet.</p>
+            </div>
+            <div class="social-media__icons">
+                <ul class="icons-list">
+                    <li class="icons-list__item">
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li class="icons-list__item">
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li class="icons-list__item">
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                    <li class="icons-list__item">
+                        <a href=""><i class="fa-brands fa-pinterest"></i></a>
+                    </li>
+                    <li class="icons-list__item">
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li class="icons-list__item">
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                    </li>
+                    <li class="icons-list__item">
+                        <a href=""><i class="fa-sharp fa-solid fa-rss"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
     <section class="tabs">
         <div class="container">
+            <p><a name="tabs"></a></p>
             <div class="tabs__header">
             <ul class="tabs__header__menu">
                 <li class="menu__nav-item active">
@@ -35,11 +114,11 @@
                 <img class="content__right__pic" src="./img/Rectangle 111.png" alt="statue"></div>
             </div>
         </div>
-        </section>
+    </section>
     <section class="about">
         <div class="container">
+            <p><a name="about"></a></p>
             <h2 class="main-title">WHY THIS IS AWESOME</h2>
-            <div class="separator separator--red-color"></div>
             <p class="secondary-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <ul class="about__list">
                 <li class="list__list-item">
@@ -71,8 +150,8 @@ elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accum
     </section>
     <section class="pricing">
         <div class="container">
+            <p><a name="pricing"></a></p>
             <h2 class="main-title">PRICING OPTION</h2>
-            <div class="separator separator--red-color"></div>
             <p class="secondary-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         <div class="pricing-block">
             <div class="pricing-block__block-list">
@@ -119,8 +198,8 @@ elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accum
     </section>
     <section class="reviews">
         <div class="container">
+            <p><a name="rewiews"></a></p>
             <h2 class="main-title">WHAT OUR CUSTOMERS ARE SAYING</h2>
-            <div class="separator separator--red-color"></div>
             <p class="secondary-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <div class="opinion">
                 <div class="opinion__item">
@@ -133,7 +212,7 @@ elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accum
                             <div class="customer-info__image--wrapper">
                                 <img class="customer-info__image" src="./img/Customer1.svg" alt="Customer-1">
                             </div>
-                            <div class="customer-info__view">
+                            <div class="customer-info__data">
                                 <p class="data__name">Davis Rhiel Madsen</p>
                                 <p class="data__post">Manager</p>
                             </div>
@@ -149,7 +228,7 @@ elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accum
                             <div class="customer-info__image--wrapper">
                                 <img class="customer-info__image" src="./img/Customer2.svg" alt="Customer-2">
                             </div>
-                            <div class="customer-info__view">
+                            <div class="customer-info__data">
                                 <p class="data__name">Jaydon Rosser</p>
                                 <p class="data__post">Manager</p>
                             </div>
@@ -165,7 +244,7 @@ elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accum
                             <div class="customer-info__image--wrapper">
                                 <img class="customer-info__image" src="./img/Customer3.png" alt="Customer-3">
                             </div>
-                            <div class="customer-info__view">
+                            <div class="customer-info__data">
                                 <p class="data__name">Cooper Dorwart</p>
                                 <p class="data__post">Manager</p>
                             </div>
@@ -174,5 +253,42 @@ elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accum
             </div>
         </div>
     </section>
+    <section class="banner">
+        <div class="banner-block">
+            <h2 class="main-title">STYLISH AXURE DESIGN</h2>
+            <p class="secondary-title">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
+            <button class="info__button">Download</button>
+        </div>
+    </section>
+    <section class="contakts"></section>
+</main>
+<footer>
+    <div class="footer-icons">
+        <ul class="footer-icons__list">
+            <li class="footer-icons__list-item">
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li class="footer-icons__list-item">
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li class="footer-icons__list-item">
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li class="footer-icons__list-item">
+                <a href=""><i class="fa-brands fa-pinterest"></i></a>
+            </li>
+            <li class="footer-icons__list-item">
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li class="footer-icons__list-item">
+                <a href=""><i class="fa-brands fa-github"></i></a>
+            </li>
+            <li class="footer-icons__list-item">
+                <a href=""><i class="fa-sharp fa-solid fa-rss"></i></a>
+            </li>
+        </ul>
+        <p class="footer-icons__text">© 2015 Axure Themes</p>
+    </div>
+</footer>
 </body>
 </html>

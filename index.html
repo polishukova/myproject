@@ -10,14 +10,14 @@
 </head>
 <body>
 <header>
-    <div class="header-block">
+    <div class="container header-block">
         <div class="header-logo">
             <img src="./img/AX.svg" alt="logo">
             <img src="./img/IT.svg" alt="logo">
         </div>
-    <div class="header__navigation">
-        <nav class="navigarion-menu">
-            <ul class="navigarion-list">
+        <div class="header-navigation">
+        <nav class="navigation-menu">
+            <ul class="navigation-list">
                 <li class="navigation-list__item">
                     <a href="#tabs">Features</a>
                 </li>
@@ -31,7 +31,7 @@
                     <a href="#rewiews">Rewiews</a>
                 </li>
                 <li class="navigation-list__item">
-                    <a href="">Contact</a>
+                    <a href="#contakts">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -39,8 +39,8 @@
     </div>
 </header>
 <main>
-    <section class="desktop">
-        <div class="desktop-block">
+    <section class="desktop-block">
+        <div class="container desktop-block__container">
             <div class="desktop-block__info">
                 <div class="info__logo--wrapper">
                     <img class="info__logo" src="./img/AX.svg" alt="logo">
@@ -50,218 +50,247 @@
                 <p class="info__secondary-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                 <button class="info__button">Download</button>
             </div>
-            <div></div>
+            <form action="#" class="desktop-block__input">
+                <p class="input-title">Try Your <span class="input-title__action">FREE</span> Trial Today</p>
+                <div class="input-element--wrapper">
+                    <input class="input-element" type="text"  name="name" placeholder="Name">
+                    <input class="input-element" type="email"  name="email" placeholder="Email">
+                    <input class="input-element" type="password"  name="password" placeholder="Password">
+                </div>
+                <button class="input-button">Get Started</button>
+            </form>
         </div>
     </section>
-    <section class="social-media">
-        <div class="social-media__block">
-            <div class="social-media__info">
-                <p class="social-media__info-title">Social Media</p>
-                <p class="social-media__info-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Aenean euismod bibendum laoreet.</p>
-            </div>
-            <div class="social-media__icons">
-                <ul class="icons-list">
-                    <li class="icons-list__item">
-                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-                    </li>
-                    <li class="icons-list__item">
-                        <a href=""><i class="fa-brands fa-twitter"></i></a>
-                    </li>
-                    <li class="icons-list__item">
-                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                    </li>
-                    <li class="icons-list__item">
-                        <a href=""><i class="fa-brands fa-pinterest"></i></a>
-                    </li>
-                    <li class="icons-list__item">
-                        <a href=""><i class="fa-brands fa-instagram"></i></a>
-                    </li>
-                    <li class="icons-list__item">
-                        <a href=""><i class="fa-brands fa-github"></i></a>
-                    </li>
-                    <li class="icons-list__item">
-                        <a href=""><i class="fa-sharp fa-solid fa-rss"></i></a>
-                    </li>
-                </ul>
-            </div>
+</main>
+<section class="social-media">
+    <div class="container social-media__block">
+        <div class="social-media__info">
+            <p class="social-media__info-title">Social Media</p>
+            <p class="social-media__info-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Aenean euismod bibendum laoreet.</p>
         </div>
-    </section>
-    <section class="tabs">
-        <div class="container">
-            <p><a name="tabs"></a></p>
-            <div class="tabs__header">
-            <ul class="tabs__header__menu">
-                <li class="menu__nav-item active">
-                    <p class="tab">TAB 1</p></li>
-                <li class="menu__nav-item">
-                    <p class="tab">TAB 2</p></li>
-                <li class="menu__nav-item">
-                    <p class="tab">TAB 3</p></li>
+        <div class="social-media__icons">
+            <ul class="icons-list">
+                <li class="icons-list__item">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                </li>
+                <li class="icons-list__item">
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li class="icons-list__item">
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </li>
+                <li class="icons-list__item">
+                    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                </li>
+                <li class="icons-list__item">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li class="icons-list__item">
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                </li>
+                <li class="icons-list__item">
+                    <a href="#"><i class="fa-sharp fa-solid fa-rss"></i></a>
+                </li>
             </ul>
-            </div>
-        <div class="tabs__content">
-            <div class="tabs__content__left">
-                <h3 class="content__left__title">Tabs with soft transitioning effect.</h3>
-                <p class="content__left__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
-                bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
-                justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
-                penatibus et magnis dis parturient montes.</p>
-                <p class="content__left__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
-                bibendum laoreet.</p>
-                <button class="content__left__button">Download</button></div>
-            <div class="tabs__content__right">
-                <img class="content__right__pic" src="./img/Rectangle 111.png" alt="statue"></div>
-            </div>
         </div>
-    </section>
-    <section class="about">
-        <div class="container">
-            <p><a name="about"></a></p>
-            <h2 class="main-title">WHY THIS IS AWESOME</h2>
-            <p class="secondary-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <ul class="about__list">
-                <li class="list__list-item">
-                <div class="list-item__image--wrapper">
-                    <img class="list-item__image" src="img/lamp.svg" alt="lamp">
-                </div>
-                <h4 class="list-item__title">Thoughtful Design</h4>
-                <p class="list-item__descr">Lorem ipsum dolor sit amet, consectetur adipiscing 
-elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
-            </li>
-            <li class="list__list-item">
-                <div class="list-item__image--wrapper">
-                    <img class="list-item__image" src="img/keybord.svg" alt="keybord">
-                </div>
-                <h4 class="list-item__title">Thoughtful Design</h4>
-                <p class="list-item__descr">Lorem ipsum dolor sit amet, consectetur adipiscing 
-elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
-            </li>
-            <li class="list__list-item">
-                <div class="list-item__image--wrapper">
-                    <img class="list-item__image" src="img/light.svg" alt="light">
-                </div>
-                <h4 class="list-item__title">Thoughtful Design</h4>
-                <p class="list-item__descr">Lorem ipsum dolor sit amet, consectetur adipiscing 
-elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
-            </li>
+    </div>
+</section>
+<section class="tabs">
+    <div class="container">
+        <p><a name="tabs"></a></p>
+        <div class="tabs__header">
+        <ul class="tabs__header__menu">
+            <li class="menu__nav-item active">
+                <p class="tab">TAB 1</p></li>
+            <li class="menu__nav-item">
+                <p class="tab">TAB 2</p></li>
+            <li class="menu__nav-item">
+                <p class="tab">TAB 3</p></li>
         </ul>
         </div>
-    </section>
-    <section class="pricing">
-        <div class="container">
-            <p><a name="pricing"></a></p>
-            <h2 class="main-title">PRICING OPTION</h2>
-            <p class="secondary-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <div class="pricing-block">
-            <div class="pricing-block__block-list">
-                <ul class="block-list">
-                    <li class="block-list__element block-list__element--rate">Basic</li>
-                    <li class="block-list__element block-list__element--cost">$10</li>
-                    <li class="block-list__element block-list__element--text">Free for life</li>
-                    <li class="block-list__element">1 Gb Of Space</li>
-                    <li class="block-list__element">1 Gb Of Space</li>
-                    <li class="block-list__element">1 Gb Of Space</li>
-                    <li class="block-list__element">1 Gb Of Space</li>
-                    <li class="block-list__element">1 Gb Of Space</li>
-                    <li class="block-list__element">1 Gb Of Space</li>
-                </ul>
-            </div>
-            <div class="pricing-block__block-list">
-                <ul class="block-list">
-                    <li class="block-list__element block-list__element--rate">Optima</li>
-                    <li class="block-list__element block-list__element--cost">$20</li>
-                    <li class="block-list__element block-list__element--text">Free for life</li>
-                    <li class="block-list__element">1 Gb Of Space</li>
-                    <li class="block-list__element">1 Gb Of Space</li>
-                    <li class="block-list__element">1 Gb Of Space</li>
-                    <li class="block-list__element">1 Gb Of Space</li>
-                    <li class="block-list__element">1 Gb Of Space</li>
-                    <li class="block-list__element">1 Gb Of Space</li>
-                </ul>
-            </div>
-            <div class="pricing-block__block-list">
-                <ul class="block-list">
-                    <li class="block-list__element block-list__element--rate">Pro</li>
-                    <li class="block-list__element block-list__element--cost">$30</li>
-                    <li class="block-list__element block-list__element--text">Free for life</li>
-                    <li class="block-list__element">1 Gb Of Space</li>
-                    <li class="block-list__element">1 Gb Of Space</li>
-                    <li class="block-list__element">1 Gb Of Space</li>
-                    <li class="block-list__element">1 Gb Of Space</li>
-                    <li class="block-list__element">1 Gb Of Space</li>
-                    <li class="block-list__element">1 Gb Of Space</li>
-                </ul>
-            </div>
+    <div class="tabs__content">
+        <div class="tabs__content__left">
+            <h3 class="content__left__title">Tabs with soft transitioning effect.</h3>
+            <p class="content__left__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+            penatibus et magnis dis parturient montes.</p>
+            <p class="content__left__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+            bibendum laoreet.</p>
+            <button class="content__left__button">Download</button></div>
+        <div class="tabs__content__right">
+            <img class="content__right__pic" src="./img/Rectangle 111.png" alt="statue"></div>
         </div>
+    </div>
+</section>
+<section class="about">
+    <div class="container">
+        <p><a name="about"></a></p>
+        <h2 class="main-title">WHY THIS IS AWESOME</h2>
+        <p class="secondary-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <ul class="about__list">
+            <li class="list__list-item">
+            <div class="list-item__image--wrapper">
+                <img class="list-item__image" src="img/lamp.svg" alt="lamp">
+            </div>
+            <h4 class="list-item__title">Thoughtful Design</h4>
+            <p class="list-item__descr">Lorem ipsum dolor sit amet, consectetur adipiscing 
+elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
+        </li>
+        <li class="list__list-item">
+            <div class="list-item__image--wrapper">
+                <img class="list-item__image" src="img/keybord.svg" alt="keybord">
+            </div>
+            <h4 class="list-item__title">Thoughtful Design</h4>
+            <p class="list-item__descr">Lorem ipsum dolor sit amet, consectetur adipiscing 
+elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
+        </li>
+        <li class="list__list-item">
+            <div class="list-item__image--wrapper">
+                <img class="list-item__image" src="img/light.svg" alt="light">
+            </div>
+            <h4 class="list-item__title">Thoughtful Design</h4>
+            <p class="list-item__descr">Lorem ipsum dolor sit amet, consectetur adipiscing 
+elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
+        </li>
+    </ul>
+    </div>
+</section>
+<section class="pricing">
+    <div class="container">
+        <p><a name="pricing"></a></p>
+        <h2 class="main-title">PRICING OPTION</h2>
+        <p class="secondary-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <div class="pricing-block">
+        <div class="pricing-block__block-list">
+            <ul class="block-list">
+                <li class="block-list__element block-list__element--rate">Basic</li>
+                <li class="block-list__element block-list__element--cost">$10</li>
+                <li class="block-list__element block-list__element--text">Free for life</li>
+                <li class="block-list__element">1 Gb Of Space</li>
+                <li class="block-list__element">1 Gb Of Space</li>
+                <li class="block-list__element">1 Gb Of Space</li>
+                <li class="block-list__element">1 Gb Of Space</li>
+                <li class="block-list__element">1 Gb Of Space</li>
+                <li class="block-list__element">1 Gb Of Space</li>
+            </ul>
         </div>
-    </section>
-    <section class="reviews">
-        <div class="container">
-            <p><a name="rewiews"></a></p>
-            <h2 class="main-title">WHAT OUR CUSTOMERS ARE SAYING</h2>
-            <p class="secondary-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <div class="opinion">
-                <div class="opinion__item">
-                    <p class="opinion__text">Lorem ipsum dolor sit amet, 
-                        consectetur adipisicing elit. Doloribus 
-                        accusamus expedita repellat similique 
-                        odio aspernatur ex, architecto eaque 
-                        quo suscipit.</p>
-                        <div class="opinion__customer-info">
-                            <div class="customer-info__image--wrapper">
-                                <img class="customer-info__image" src="./img/Customer1.svg" alt="Customer-1">
-                            </div>
-                            <div class="customer-info__data">
-                                <p class="data__name">Davis Rhiel Madsen</p>
-                                <p class="data__post">Manager</p>
-                            </div>
+        <div class="pricing-block__block-list">
+            <ul class="block-list">
+                <li class="block-list__element block-list__element--rate">Optima</li>
+                <li class="block-list__element block-list__element--cost">$20</li>
+                <li class="block-list__element block-list__element--text">Free for life</li>
+                <li class="block-list__element">1 Gb Of Space</li>
+                <li class="block-list__element">1 Gb Of Space</li>
+                <li class="block-list__element">1 Gb Of Space</li>
+                <li class="block-list__element">1 Gb Of Space</li>
+                <li class="block-list__element">1 Gb Of Space</li>
+                <li class="block-list__element">1 Gb Of Space</li>
+            </ul>
+        </div>
+        <div class="pricing-block__block-list">
+            <ul class="block-list">
+                <li class="block-list__element block-list__element--rate">Pro</li>
+                <li class="block-list__element block-list__element--cost">$30</li>
+                <li class="block-list__element block-list__element--text">Free for life</li>
+                <li class="block-list__element">1 Gb Of Space</li>
+                <li class="block-list__element">1 Gb Of Space</li>
+                <li class="block-list__element">1 Gb Of Space</li>
+                <li class="block-list__element">1 Gb Of Space</li>
+                <li class="block-list__element">1 Gb Of Space</li>
+                <li class="block-list__element">1 Gb Of Space</li>
+            </ul>
+        </div>
+    </div>
+    </div>
+</section>
+<section class="reviews">
+    <div class="container">
+        <p><a name="rewiews"></a></p>
+        <h2 class="main-title">WHAT OUR CUSTOMERS ARE SAYING</h2>
+        <p class="secondary-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="opinion">
+            <div class="opinion__item">
+                <p class="opinion__text">Lorem ipsum dolor sit amet, 
+                    consectetur adipisicing elit. Doloribus 
+                    accusamus expedita repellat similique 
+                    odio aspernatur ex, architecto eaque 
+                    quo suscipit.</p>
+                    <div class="opinion__customer-info">
+                        <div class="customer-info__image--wrapper">
+                            <img class="customer-info__image" src="./img/Customer1.svg" alt="Customer-1">
                         </div>
-                </div>
-                <div class="opinion__item">
-                    <p class="opinion__text">Lorem ipsum dolor sit amet, 
-                        consectetur adipisicing elit. Doloribus 
-                        accusamus expedita repellat similique 
-                        odio aspernatur ex, architecto eaque 
-                        quo suscipit.</p>
-                        <div class="opinion__customer-info">
-                            <div class="customer-info__image--wrapper">
-                                <img class="customer-info__image" src="./img/Customer2.svg" alt="Customer-2">
-                            </div>
-                            <div class="customer-info__data">
-                                <p class="data__name">Jaydon Rosser</p>
-                                <p class="data__post">Manager</p>
-                            </div>
+                        <div class="customer-info__data">
+                            <p class="data__name">Davis Rhiel Madsen</p>
+                            <p class="data__post">Manager</p>
                         </div>
-                </div>
-                <div class="opinion__item">
-                    <p class="opinion__text">Lorem ipsum dolor sit amet, 
-                        consectetur adipisicing elit. Doloribus 
-                        accusamus expedita repellat similique 
-                        odio aspernatur ex, architecto eaque 
-                        quo suscipit.</p>
-                        <div class="opinion__customer-info">
-                            <div class="customer-info__image--wrapper">
-                                <img class="customer-info__image" src="./img/Customer3.png" alt="Customer-3">
-                            </div>
-                            <div class="customer-info__data">
-                                <p class="data__name">Cooper Dorwart</p>
-                                <p class="data__post">Manager</p>
-                            </div>
+                    </div>
+            </div>
+            <div class="opinion__item">
+                <p class="opinion__text">Lorem ipsum dolor sit amet, 
+                    consectetur adipisicing elit. Doloribus 
+                    accusamus expedita repellat similique 
+                    odio aspernatur ex, architecto eaque 
+                    quo suscipit.</p>
+                    <div class="opinion__customer-info">
+                        <div class="customer-info__image--wrapper">
+                            <img class="customer-info__image" src="./img/Customer2.svg" alt="Customer-2">
                         </div>
-                </div>
+                        <div class="customer-info__data">
+                            <p class="data__name">Jaydon Rosser</p>
+                            <p class="data__post">Manager</p>
+                        </div>
+                    </div>
+            </div>
+            <div class="opinion__item">
+                <p class="opinion__text">Lorem ipsum dolor sit amet, 
+                    consectetur adipisicing elit. Doloribus 
+                    accusamus expedita repellat similique 
+                    odio aspernatur ex, architecto eaque 
+                    quo suscipit.</p>
+                    <div class="opinion__customer-info">
+                        <div class="customer-info__image--wrapper">
+                            <img class="customer-info__image" src="./img/Customer3.png" alt="Customer-3">
+                        </div>
+                        <div class="customer-info__data">
+                            <p class="data__name">Cooper Dorwart</p>
+                            <p class="data__post">Manager</p>
+                        </div>
+                    </div>
             </div>
         </div>
-    </section>
-    <section class="banner">
-        <div class="banner-block">
-            <h2 class="main-title">STYLISH AXURE DESIGN</h2>
-            <p class="secondary-title">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
-            <button class="info__button">Download</button>
-        </div>
-    </section>
-    <section class="contakts"></section>
-</main>
+    </div>
+</section>
+<section class="banner">
+    <div class="banner-block">
+        <h2 class="main-title">STYLISH AXURE DESIGN</h2>
+        <p class="secondary-title">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
+        <button class="info__button">Download</button>
+    </div>
+</section>
+<section class="contakts">
+    <div class="container">
+        <p><a name="contakts"></a></p>
+        <h2 class="main-title">CONTACT US</h2>
+        <p class="secondary-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <form action="#" class="contakts-form">
+            <div class="contakts-form--wrapper">
+                <label for="user-name">Name</label>
+                <input class="contakts-element" type="text"  name="name" id="user-name">
+                <label for="user-email">Email</label>
+                <input class="contakts-element" type="email"  name="email" id="user-email">
+                <label for="user-password">Password</label>
+                <input class="contakts-element" type="password"  name="password" id="user-password">
+            </div>
+            <div class="contakts-form--wrapper">
+                <label for="user-message">Message</label>
+                <textarea class="contakts-element textarea" id="user-message"></textarea>
+            </div>
+        </form>
+        <button class="content__left__button contakts__button">Send Message</button>
+    </div>
+</section>
 <footer>
     <div class="footer-icons">
         <ul class="footer-icons__list">

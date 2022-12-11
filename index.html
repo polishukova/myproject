@@ -36,12 +36,15 @@
             </ul>
         </nav>
     </div>
+    <div class="burger">
+        <img src="./img/burger.svg" alt="Menu">
+    </div>
     </div>
 </header>
 <main>
-    <section class="desktop-block">
-        <div class="container desktop-block__container">
-            <div class="desktop-block__info">
+    <section class="desktop">
+        <div class="container desktop__container">
+            <div class="desktop-info">
                 <div class="info__logo--wrapper">
                     <img class="info__logo" src="./img/AX.svg" alt="logo">
                     <img class="info__logo" src="./img/IT.svg" alt="logo">
@@ -50,15 +53,17 @@
                 <p class="info__secondary-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                 <button class="info__button">Download</button>
             </div>
-            <form action="#" class="desktop-block__input">
-                <p class="input-title">Try Your <span class="input-title__action">FREE</span> Trial Today</p>
-                <div class="input-element--wrapper">
-                    <input class="input-element" type="text"  name="name" placeholder="Name">
-                    <input class="input-element" type="email"  name="email" placeholder="Email">
-                    <input class="input-element" type="password"  name="password" placeholder="Password">
+            <div class="desktop__data">
+            <form action="#" id="banner-button">
+                <h4 class="data-title">Try Your <span class="data-title__action">FREE</span> Trial Today</h4>
+                <div class="data-element--wrapper">
+                    <div class="data-element"><input type="text"  name="name" placeholder="Name"></div>
+                    <div class="data-element"><input type="email"  name="email" placeholder="Email"></div>
+                    <div class="data-element"><input type="password"  name="password" placeholder="Password"></div>
                 </div>
-                <button class="input-button">Get Started</button>
+                <button class="data-button" type="submit" form="banner-button">Get Started</button>
             </form>
+        </div>
         </div>
     </section>
 </main>
@@ -118,7 +123,8 @@
             penatibus et magnis dis parturient montes.</p>
             <p class="content__left__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
             bibendum laoreet.</p>
-            <button class="content__left__button">Download</button></div>
+            <button class="content__left__button">Download</button>
+        </div>
         <div class="tabs__content__right">
             <img class="content__right__pic" src="./img/Rectangle 111.png" alt="statue"></div>
         </div>
@@ -211,7 +217,7 @@ elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accum
         <h2 class="main-title">WHAT OUR CUSTOMERS ARE SAYING</h2>
         <p class="secondary-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         <div class="opinion">
-            <div class="opinion__item">
+            <div class="opinion__item opinion__item-one">
                 <p class="opinion__text">Lorem ipsum dolor sit amet, 
                     consectetur adipisicing elit. Doloribus 
                     accusamus expedita repellat similique 
@@ -227,7 +233,7 @@ elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accum
                         </div>
                     </div>
             </div>
-            <div class="opinion__item">
+            <div class="opinion__item opinion__item-two">
                 <p class="opinion__text">Lorem ipsum dolor sit amet, 
                     consectetur adipisicing elit. Doloribus 
                     accusamus expedita repellat similique 
@@ -243,7 +249,7 @@ elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accum
                         </div>
                     </div>
             </div>
-            <div class="opinion__item">
+            <div class="opinion__item opinion__item-three">
                 <p class="opinion__text">Lorem ipsum dolor sit amet, 
                     consectetur adipisicing elit. Doloribus 
                     accusamus expedita repellat similique 
@@ -274,21 +280,27 @@ elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accum
         <p><a name="contakts"></a></p>
         <h2 class="main-title">CONTACT US</h2>
         <p class="secondary-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <form action="#" class="contakts-form">
+        <form action="#" class="contakts-form" id="contakts-button">
             <div class="contakts-form--wrapper">
-                <label for="user-name">Name</label>
-                <input class="contakts-element" type="text"  name="name" id="user-name">
-                <label for="user-email">Email</label>
-                <input class="contakts-element" type="email"  name="email" id="user-email">
-                <label for="user-password">Password</label>
-                <input class="contakts-element" type="password"  name="password" id="user-password">
+                <div class="contakts-element--wrapper">
+                    <label for="user-name">Name</label>
+                    <input class="contakts-element" type="text"  name="name" id="user-name">
+                </div>
+                <div class="contakts-element--wrapper">
+                    <label for="user-email">Email</label>
+                    <input class="contakts-element" type="email"  name="email" id="user-email">
+                </div>
+                <div class="contakts-element--wrapper">
+                    <label for="user-password">Password</label>
+                    <input class="contakts-element" type="password"  name="password" id="user-password">
+                </div>
             </div>
             <div class="contakts-form--wrapper">
                 <label for="user-message">Message</label>
                 <textarea class="contakts-element textarea" id="user-message"></textarea>
             </div>
         </form>
-        <button class="content__left__button contakts__button">Send Message</button>
+        <button class="content__left__button contakts__button" type="submit" form="contakts-button">Send Message</button>
     </div>
 </section>
 <footer>
